@@ -42,7 +42,7 @@ namespace NodeEditor
             public NodeAttribute Attribute;
         }
 
-        private NodesGraph graph = new NodesGraph();
+        public NodesGraph graph = new NodesGraph();
         private bool needRepaint = true;
         private Timer timer = new Timer();
         private bool mdown;

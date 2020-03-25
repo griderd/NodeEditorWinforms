@@ -56,7 +56,7 @@ namespace NodeEditor
         internal int Order { get; set; }
         internal bool Callable { get; set; }
         internal bool ExecInit { get; set; }
-        internal bool IsSelected { get; set; }
+        public bool IsSelected { get; set; }
         internal FeedbackType Feedback { get; set; }
         private object nodeContext { get; set; } 
         internal Control CustomEditor { get; set; }
